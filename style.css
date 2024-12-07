@@ -92,7 +92,7 @@ main{
     gap: 20px;
 }
 
-.button-content button{
+.button-content .button{
     cursor: pointer;
     padding: 10px 34px;
     color: white;
@@ -103,7 +103,7 @@ main{
     box-shadow: 4px 4px 0 0 #eb7711bf;
     transition: 0.3s all ease-in-out;
 }
-.button-content button:hover{
+.button-content .button:hover{
 box-shadow: -4px -4px 0 0 #eb7711bf;
 animation: shake 0.3s 2 linear ;
 }
